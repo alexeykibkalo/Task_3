@@ -25,6 +25,9 @@ public class MainClass extends TestScripts {
         setFilter(driver);
 
         driver.findElement(By.xpath("//li[@data-idx='1']")).click();
+
+        driver.close();
+
        // WebElement nextImage = (new WebDriverWait(driver, 10))
                // .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@id= 'iol_navr']")));
         //nextImage.click();
@@ -47,7 +50,7 @@ public class MainClass extends TestScripts {
      //    .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[@class='iol_nav' and @id = 'iol_navr']")));
         //WebElement element =(WebElement)((JavascriptExecutor)driver)
         //  .executeScript("document.getElementById('miniheader').focus();");
-   driver.findElement(By.xpath("//div[@id = 'switcher']"));
+  // driver.findElement(By.xpath("//div[@id = 'switcher']"));
 
      // WebElement temp =  driver.findElement(By.xpath("//div[@id = 'b_content']"))
      //    .findElement(By.id("detail_canvas")).findElement(By.id("iol_navl"));
@@ -60,17 +63,17 @@ public class MainClass extends TestScripts {
 //driver.findElement(By.xpath("//div[@id = 'b_content']"))
 // .findElement(By.id("detail_canvas")).findElement(By.id("iol_navl")).click()
 
-        driver.findElement(By.xpath("//div[@id = 'b_content'")).click();
+       // driver.findElement(By.xpath("//div[@id = 'b_content'")).click();
 
-        WebElement el = driver.findElement(By.xpath("//a[@class='iol_nav' and @id = 'iol_navr']"));
+     //   WebElement el = driver.findElement(By.xpath("//a[@class='iol_nav' and @id = 'iol_navr']"));
 
-        el.click();
+      //  el.click();
 
 
        // driver.findElement(By.xpath("//div[@id='can_fav']")).click();
 
 
-       // driver.close();
+
     }
 
 
